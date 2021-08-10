@@ -21,7 +21,7 @@ public class FirstTest {
 
   @Test
   void  firstTest() {
-    System.out.println("Hello World");
+    System.out.println("Hello People");
     Assertions.assertTrue(true);
   }
 }
