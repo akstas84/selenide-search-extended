@@ -1,9 +1,8 @@
-package ru.akstas84.qa;
+package ru.akstas84.qa.test;
 
 import org.junit.jupiter.api.*;
 
 public class FirstTest {
-
 
   @BeforeAll
   static void beforeAll() {
@@ -22,9 +21,7 @@ public class FirstTest {
 
   @Test
   void  firstTest() {
-    System.out.println("Hello World");
+    System.out.println("Hello People");
     Assertions.assertTrue(true);
   }
-
-
 }

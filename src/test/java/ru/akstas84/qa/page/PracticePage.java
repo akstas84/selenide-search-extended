@@ -2,14 +2,12 @@ package ru.akstas84.qa.page;
 
 import com.codeborne.selenide.SelenideElement;
 import ru.akstas84.qa.data.TestData;
-
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 public class PracticePage {
-
 
   private static final String FORM_TITLE = "Practice Form";
   private static final String RESULT_TITLE = "Thanks for submitting the form";

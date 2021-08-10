@@ -1,4 +1,4 @@
-package ru.akstas84.qa;
+package ru.akstas84.qa.test;
 
 import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
@@ -6,7 +6,6 @@ import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import ru.akstas84.qa.data.TestData;
 import ru.akstas84.qa.page.PracticePage;
-import static ru.akstas84.qa.data.TestData.*;
 
 public class TestBoxTests {
 
