@@ -1,4 +1,4 @@
-package ru.akstas84.qa;
+package ru.akstas84.qa.test;
 
 import org.junit.jupiter.api.Test;
 import static com.codeborne.selenide.Condition.text;

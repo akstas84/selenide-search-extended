@@ -1,4 +1,4 @@
-package ru.akstas84.qa;
+package ru.akstas84.qa.test;
 
 import com.codeborne.selenide.Configuration;
 import com.github.javafaker.Faker;
