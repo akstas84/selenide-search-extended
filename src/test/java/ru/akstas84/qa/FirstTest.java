@@ -4,7 +4,6 @@ import org.junit.jupiter.api.*;
 
 public class FirstTest {
 
-
   @BeforeAll
   static void beforeAll() {
     System.out.println("this is before all");
@@ -25,6 +24,4 @@ public class FirstTest {
     System.out.println("Hello World");
     Assertions.assertTrue(true);
   }
-
-
 }
