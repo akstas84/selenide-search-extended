@@ -4,7 +4,7 @@ import org.junit.jupiter.api.*;
 
 public class FirstTest {
 
-
+// пробуем коммит в чужой репозиторий
   @BeforeAll
   static void beforeAll() {
     System.out.println("this is before all");
