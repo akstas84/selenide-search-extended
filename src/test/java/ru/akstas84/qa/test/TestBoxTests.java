@@ -25,7 +25,7 @@ public class TestBoxTests {
   @Test
   void positiveFillTestPracticeFormTest() {
     practicePage.openPage();
-    practicePage.typeRregistrationDataAndSubmit(firstName, lastName, testData);
+    practicePage.typeRegistrationDataAndSubmit(firstName, lastName, testData);
     practicePage.checkResultsTitle();
     practicePage.checkResultsValue(firstName, lastName, testData);
   }
