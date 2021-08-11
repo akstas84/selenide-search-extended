@@ -27,7 +27,7 @@ public class PracticePage {
     $("#lastName").setValue(lastName);
   }
 
-  public void selectGeneder(String gender) {
+  public void selectGender(String gender) {
     $(byText(gender)).click();
   }
 
@@ -47,11 +47,11 @@ public class PracticePage {
     $("#submit").scrollTo().click();
   }
 
-  public void typeRregistrationDataAndSubmit(String firstName, String lastName, TestData data) {
+  public void typeRegistrationDataAndSubmit(String firstName, String lastName, TestData data) {
     typeFirstName(firstName);
     typeLastName(lastName);
     typeEmail(data.email);
-    selectGeneder(data.gender);
+    selectGender(data.gender);
     typePhoneNumber(data.phone);
     typeCurrentAddress(data.address);
     clickBySubmit();
